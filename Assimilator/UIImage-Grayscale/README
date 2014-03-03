@@ -1,0 +1,10 @@
+UIImage+Grayscale is an Objective-C category for converting a UIImage to 
+grayscale taking into account retina displays.
+
+The usage is quite simple, import the header file where needed and use it to 
+produce a grayscale version of an UIImage, like so:
+
+UIImage *grayscaleImg = [[UIImage imageWithContentsOfFile:img] convertToGrayscale];
+
+Please have a look at COPYRIGHT for original credits and to the comments in 
+the .m file for interesting insights on grayscale conversion.
